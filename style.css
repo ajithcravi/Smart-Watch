@@ -1,0 +1,114 @@
+.row{
+    margin: 0 !important;
+}
+
+.col-6.left{
+    width: 50vw;
+    height: 100vh;
+    background-color: #0080FF;
+    margin-bottom: 0 !important;
+    
+}
+
+.heading{
+    text-align: center;
+    padding-top: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.firstWord{
+    color: #000000;
+}
+
+.secondWord{
+    color: #fff;
+}
+
+.col-6.right{
+    width: 50vw;
+    height: 100vh;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+
+.case{
+    position: absolute;
+    width: 24em;
+    height: 29em;
+
+    background: #2A2A2A;
+    border-radius: 70px;
+}
+
+.display{
+    position: absolute;
+    width: 21em;
+    height: 26em;
+    margin: 1.5em;
+
+    background: #000000;
+    border-radius: 70px;
+}
+
+.roundButton{
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin-top: 18em;
+}
+
+.roundButton.message{
+    margin-left: 1.5em;
+    background: #0080FF;
+}
+
+.roundButton.music{
+    margin-left: 8em;
+    background: #FF7F00;
+}
+
+.roundButton.clock{
+    margin-left: 14.5em;
+    background: #009900;
+}
+
+.roundButton:hover{
+    position: fixed;
+    height: 6em;
+    width: 6em;
+    margin-top: 17em;
+    transition: .5s;
+}
+
+.icons{
+    position: absolute;
+    display: flex;
+    font-size: 3em;
+    /* margin: 0.25em; */
+    color: #fff;
+    padding: 20%;
+}
+
+
+#displayTime{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    z-index: 1;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#displayDate{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    text-align: center;
+}
