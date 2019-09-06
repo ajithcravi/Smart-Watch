@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Locked</title>
+    <title>Smart Watch</title>
 </head>
 <body onload="startTime()">
     <div class="row">
@@ -13,24 +13,58 @@
         </div>
 
         <div class="col-6 right">
+            <div class="case">   
+
+                <div class="display" id="time">
+                    <button class="button timeTme"><i class="fas fa-clock" ></i></button>
+                <div id="displayTimeTme"></div>
+                </div>   
+
+                <div class="display" id="music">
+                    <button class="button musicMsc"><i class="fas fa-headphones"></i></button>
+                    <div>
+                        <audio src=""></audio>
+                    </div>
+                <div id="displayTimeMsc"></div>
+                </div>
+                
+                <div class="display" id="message">
+                    <button class="button messageMsg"><i class="fas fa-comments"></i></button>
+                <div id="displayTimeMsg"></div>
+                </div>
+
+                <div class="display" id="homeScreen">
+                    <button class="button message" onclick="screenChange('1')"><i class="fas fa-comments"></i></button>
+                    <button class="button music" onclick="screenChange('2')"><i class="fas fa-headphones"></i></button>
+                    <button class="button time" onclick="screenChange('3')"><i class="fas fa-clock"></i></button>
+                <div id="displayTime"></div>
+                <div id="displayDate"></div>
+                </div>
+    
+            </div>
+        </div>    
+    </div>
+
+    <!-- <div class="row" id="message">
+        <div class="col-6 left">
+            <h1 class="heading"><span class="firstWord">Smart</span><span class="secondWord"> Watch</span></h1>
+        </div>
+        <div class="col-6 right">
             <div class="case">
                 <div class="display">
-                    <button class="button message"><i class="fas fa-comments"></i></button>
-                    <button class="button music"><i class="fas fa-headphones"></i></button>
-                    <button class="button time"><i class="fas fa-clock"></i></button>
-                    <div id="displayTime"></div>
-                    <div id="displayDate"></div>
+                    <button class="button messageMsg"><i class="fas fa-comments"></i></button>
+                <div id="displayTime" class="displayTimeMsg" ></div>
                 </div>
             </div>
         </div>    
     </div>
-</body>
+</body> -->
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
- <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
- <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
 
 <script src="smartWatch.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>

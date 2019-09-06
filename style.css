@@ -82,10 +82,10 @@
 
 .button.message:hover{
     background-color: #00c0ff;
-    margin-left: 0.9em;
+    margin-left: 1.15em;
     margin-top: 16.5em;
-    width: 6em;
-    height: 6em;
+    width: 5.5em;
+    height: 5.5em;
     transition: 0.5s;
 }
     
@@ -102,10 +102,10 @@
 
 .button.music:hover{
     background-color: #ffbf00;
-    margin-left: 7.4em;
+    margin-left: 7.65em;
     margin-top: 16.5em;
-    width: 6em;
-    height: 6em;
+    width: 5.5em;
+    height: 5.5em;
     transition: 0.5s;
 }
 
@@ -122,10 +122,10 @@
 
 .button.time:hover{
     background-color: #00e600;
-    margin-left: 13.9em;
+    margin-left: 14.15em;
     margin-top: 16.5em;
-    width: 6em;
-    height: 6em;
+    width: 5.5em;
+    height: 5.5em;
     transition: 0.5s;
 }
 
@@ -154,6 +154,27 @@
     text-align: center;
 }
 
+/*Common for for all section*/
+
+#displayTimeMsg{
+    font-size: 1.2em;
+    margin-left: 13em;
+    color: white;
+    /* font-weight: 800; */
+}
+
+#displayTimeMsc{
+    font-size: 1.2em;
+    margin-left: 13em;
+    color: white;
+}
+
+#displayTimeTme{
+    font-size: 1.2em;
+    margin-left: 13em;
+    color: white;
+}
+
 /*Messages*/
 
 .button.messageMsg{
@@ -164,12 +185,40 @@
     background-color: #0080FF;
 }
 
-.button.messageMsg p{
+.button.messageMsg i{
     font-size: 1em;
     margin-top: 0.2em;
+    color: white;
 }
 
-#displayTime.displayTimeMsg{
+/*Music*/
+
+.button.musicMsc{
+    width: 2em;
+    height: 2em;
+    margin-top: 22em;
+    margin-left: 1em;
+    background-color: #FF7F00;
+}
+
+.button.musicMsc i{
     font-size: 1em;
-    margin-left: 14em;
+    margin-top: 0.2em;
+    color: white;
+}
+
+/*Time*/
+
+.button.timeTme{
+    width: 2em;
+    height: 2em;
+    margin-top: 22em;
+    margin-left: 1em;
+    background-color: #009900;
+}
+
+.button.timeTme i{
+    font-size: 1em;
+    margin-top: 0.2em;
+    color: white;
 }
