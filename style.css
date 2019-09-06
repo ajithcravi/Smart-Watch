@@ -1,3 +1,5 @@
+/*Index*/
+
 .row{
     margin: 0 !important;
 }
@@ -67,48 +69,64 @@
     margin-top: 17em;
   }
 
-.button p{
-    font-size: 3em;
-  }
-
-.button.message {
+.button.message{
+    color: white;
     margin-left: 1.5em;
     background-color: #0080FF;
     transition: background-color 0.5s;
 }
 
+.button.message i{
+    font-size: 3em;
+}
+
 .button.message:hover{
     background-color: #00c0ff;
+    margin-left: 0.9em;
+    margin-top: 16.5em;
+    width: 6em;
+    height: 6em;
+    transition: 0.5s;
 }
     
 .button.music {
+    color: white;
     margin-left: 8em;
     background-color: #FF7F00;
     transition: background-color 0.5s;
 }
 
+.button.music i{
+    font-size: 3em;
+}
+
 .button.music:hover{
     background-color: #ffbf00;
-    transition-duration: 0.5s;
+    margin-left: 7.4em;
+    margin-top: 16.5em;
+    width: 6em;
+    height: 6em;
+    transition: 0.5s;
 }
 
 .button.time {
+    color: white;
     margin-left: 14.5em;
     background-color: #009900;
     transition: background-color 0.5s;
 }
 
-.button.time:hover{
-    background-color: #00e600;
-    transition-duration: 0.5s;
+.button.time i{
+    font-size: 3em;
 }
 
-.roundButton:hover{
-    position: fixed;
-    height: 6em;
+.button.time:hover{
+    background-color: #00e600;
+    margin-left: 13.9em;
+    margin-top: 16.5em;
     width: 6em;
-    margin-top: 17em;
-    transition: .5s;
+    height: 6em;
+    transition: 0.5s;
 }
 
 .icons{
@@ -134,4 +152,24 @@
     font-family: Arial, Helvetica, sans-serif;
     z-index: 1;
     text-align: center;
+}
+
+/*Messages*/
+
+.button.messageMsg{
+    width: 2em;
+    height: 2em;
+    margin-top: 22em;
+    margin-left: 1em;
+    background-color: #0080FF;
+}
+
+.button.messageMsg p{
+    font-size: 1em;
+    margin-top: 0.2em;
+}
+
+#displayTime.displayTimeMsg{
+    font-size: 1em;
+    margin-left: 14em;
 }
