@@ -35,7 +35,6 @@
     padding-top: 15vh;
 }
 
-
 .case{
     position: absolute;
     width: 24em;
@@ -55,27 +54,53 @@
     border-radius: 70px;
 }
 
-.roundButton{
+.button {
     position: absolute;
+    display: flex;
     width: 5em;
     height: 5em;
     border-radius: 50%;
-    margin-top: 18em;
-}
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 17em;
+  }
 
-.roundButton.message{
+.button p{
+    font-size: 3em;
+  }
+
+.button.message {
     margin-left: 1.5em;
-    background: #0080FF;
+    background-color: #0080FF;
+    transition: background-color 0.5s;
 }
 
-.roundButton.music{
+.button.message:hover{
+    background-color: #00c0ff;
+}
+    
+.button.music {
     margin-left: 8em;
-    background: #FF7F00;
+    background-color: #FF7F00;
+    transition: background-color 0.5s;
 }
 
-.roundButton.clock{
+.button.music:hover{
+    background-color: #ffbf00;
+    transition-duration: 0.5s;
+}
+
+.button.time {
     margin-left: 14.5em;
-    background: #009900;
+    background-color: #009900;
+    transition: background-color 0.5s;
+}
+
+.button.time:hover{
+    background-color: #00e600;
+    transition-duration: 0.5s;
 }
 
 .roundButton:hover{
@@ -90,11 +115,9 @@
     position: absolute;
     display: flex;
     font-size: 3em;
-    /* margin: 0.25em; */
     color: #fff;
     padding: 20%;
 }
-
 
 #displayTime{
     color: #fff;
