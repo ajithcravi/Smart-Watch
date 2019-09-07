@@ -20,6 +20,7 @@ Description : This smart watch shows time, messages and timer along with time. -
         <div class="col-6 right">
             <div class="case">   
                 
+                <!-- Stop Watch -->
                 <div class="display" id="stopWatch">
                     <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock"></i></button>
                     <div id="displayTimeTmeSW"></div>
@@ -33,12 +34,14 @@ Description : This smart watch shows time, messages and timer along with time. -
                     </div>         
                 </div>
 
+                <!-- Time -->
                 <div class="display" id="seeTime">
                     <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock"></i></button>
                     <div id="displaySeeTime"></div>
                     <div id="displaySeeDate"></div>
                 </div>
 
+                <!-- Time Screen -->
                 <div class="display" id="time">
                     <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock" ></i></button>
                     <button class="button seeTime" onclick="screenChange('4')"><i class="fas fa-clock"></i></button>
@@ -46,6 +49,7 @@ Description : This smart watch shows time, messages and timer along with time. -
                     <div id="displayTimeTme"></div>
                 </div>   
 
+                <!-- Music Screen -->
                 <div class="display" id="music">
                     <button class="button musicMsc" ondblclick="screenChange('0')"><i class="fas fa-headphones"></i></button>
                     <div id="displayTimeMsc"></div>
@@ -54,6 +58,7 @@ Description : This smart watch shows time, messages and timer along with time. -
                                   allow="encrypted-media" ></iframe></div>
                 </div>
                 
+                <!-- Message Screen -->
                 <div class="display" id="message">
                     <button class="button messageMsg" ondblclick="screenChange('0')"><i class="fas fa-comments"></i></button>
                     <div id="displayTimeMsg"></div>
@@ -103,7 +108,8 @@ Description : This smart watch shows time, messages and timer along with time. -
                             </div>
                         </div>
                 </div>
-
+                
+                <!-- Home Screen -->
                 <div class="display" id="homeScreen">
                     <button class="button message" onclick="screenChange('1')"><i class="fas fa-comments"></i></button>
                     <button class="button music" onclick="screenChange('2')"><i class="fas fa-headphones"></i></button>
@@ -117,6 +123,7 @@ Description : This smart watch shows time, messages and timer along with time. -
     </div>
 </body>
 
+<!-- Script and Stylesheets -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
