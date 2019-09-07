@@ -25,11 +25,11 @@ Description : This smart watch shows time, messages and timer along with time. *
 }
 
 .firstWord{
-    color: #000000;
+    color: #fff;
 }
 
 .secondWord{
-    color: #fff;
+    color: #000000;
 }
 
 .col-6.right{
@@ -351,7 +351,7 @@ Description : This smart watch shows time, messages and timer along with time. *
 /*Music Player*/
 #musicPlayer{
     margin-left: 2em;
-    margin-top: 5em;
+    margin-top: 8em;
 }
 
 /*Message list*/
