@@ -1,3 +1,8 @@
+/* Project Name : Smart Watch
+Author : Ajith C Ravi
+File type : .css
+Description : This smart watch shows time, messages and timer along with time. */
+
 /*Index*/
 
 .row{
@@ -344,4 +349,12 @@
 #musicPlayer{
     margin-left: 2em;
     margin-top: 5em;
+}
+
+#accordionExample{
+    height: 9.5em;
+    width: 17em;
+    border-radius: 70px;
+    margin-top: 2em;
+    margin-left: 2em;
 }

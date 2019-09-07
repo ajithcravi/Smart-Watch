@@ -1,3 +1,8 @@
+/* Project Name : Smart Watch
+Author : Ajith C Ravi
+File type : .js
+Description : This smart watch shows time, messages and timer along with time. */
+
 //Date and Time display code//
 
 function startTime() {

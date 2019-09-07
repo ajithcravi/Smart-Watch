@@ -1,3 +1,8 @@
+<!-- Project Name : Smart Watch
+Author : Ajith C Ravi
+File type : .html
+Description : This smart watch shows time, messages and timer along with time. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,6 +57,51 @@
                 <div class="display" id="message">
                     <button class="button messageMsg" ondblclick="screenChange('0')"><i class="fas fa-comments"></i></button>
                     <div id="displayTimeMsg"></div>
+                    <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button id="personOne" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Mom
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        Hi aji!!! How are you?
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button id="personTwo" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Dad
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        We are planning for a trip this weekend
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button id="personThree" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Sister
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        When are you coming home?
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="display" id="homeScreen">
