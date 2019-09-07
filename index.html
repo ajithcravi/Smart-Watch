@@ -14,23 +14,44 @@
 
         <div class="col-6 right">
             <div class="case">   
+                
+                <div class="display" id="stopWatch">
+                    <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock"></i></button>
+                    <div id="displayTimeTmeSW"></div>
+                    <div id="stopWatch">
+                        <h1 id="inputTime"><time>00:00:00</time></h1>
+                        <h3 id="displayLap"></h3>
+                        <button id="start" class="sWControls">start</button>
+                        <button id="stop" class="sWControls">Pause</button>
+                        <button id="clear" class="sWControls">Reset</button>
+                        <button id="lap" class="sWControls">lap</button>
+                    </div>         
+                </div>
+
+                <div class="display" id="seeTime">
+                    <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock"></i></button>
+                    <div id="displaySeeTime"></div>
+                    <div id="displaySeeDate"></div>
+                </div>
 
                 <div class="display" id="time">
-                    <button class="button timeTme"><i class="fas fa-clock" ></i></button>
-                <div id="displayTimeTme"></div>
+                    <button class="button timeTme" ondblclick="screenChange('0')"><i class="fas fa-clock" ></i></button>
+                    <button class="button seeTime" onclick="screenChange('4')"><i class="fas fa-clock"></i></button>
+                    <button class="button stopWatch" onclick="screenChange('5')"><i class="fas fa-stopwatch"></i></button>
+                    <div id="displayTimeTme"></div>
                 </div>   
 
                 <div class="display" id="music">
-                    <button class="button musicMsc"><i class="fas fa-headphones"></i></button>
-                    <div>
-                        <audio src=""></audio>
-                    </div>
-                <div id="displayTimeMsc"></div>
+                    <button class="button musicMsc" ondblclick="screenChange('0')"><i class="fas fa-headphones"></i></button>
+                    <div id="displayTimeMsc"></div>
+                    <div><iframe id="musicPlayer" src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="80%"
+                                  height="100%" frameborder="0" allowtransparency="true"
+                                  allow="encrypted-media" ></iframe></div>
                 </div>
                 
                 <div class="display" id="message">
-                    <button class="button messageMsg"><i class="fas fa-comments"></i></button>
-                <div id="displayTimeMsg"></div>
+                    <button class="button messageMsg" ondblclick="screenChange('0')"><i class="fas fa-comments"></i></button>
+                    <div id="displayTimeMsg"></div>
                 </div>
 
                 <div class="display" id="homeScreen">
@@ -44,21 +65,7 @@
             </div>
         </div>    
     </div>
-
-    <!-- <div class="row" id="message">
-        <div class="col-6 left">
-            <h1 class="heading"><span class="firstWord">Smart</span><span class="secondWord"> Watch</span></h1>
-        </div>
-        <div class="col-6 right">
-            <div class="case">
-                <div class="display">
-                    <button class="button messageMsg"><i class="fas fa-comments"></i></button>
-                <div id="displayTime" class="displayTimeMsg" ></div>
-                </div>
-            </div>
-        </div>    
-    </div>
-</body> -->
+</body>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
