@@ -14,6 +14,7 @@ Follow steps below to download and run this project in local machine
 * html
 * css
 * javascript
+* Bootstrap
 
 ## Working
 
