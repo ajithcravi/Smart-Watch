@@ -1,6 +1,6 @@
 # Smart Watch V 1.0.0
 
-Time is one of the most complicated topics but the interesting fact is that it is related to each and every one in this universe.History has witnessed many eras of time keeping. Few notable eras are the sundial era, the sandclock era, clock tower era, etc. Now people are living in the smart watch era. Being obsessed with technology, mankind has added all sorts of comforts within a small device, watch. It is then called the Smart Watch. This is a project on Smart Watch that has three basic functionaliities 1. Time and Stopwatch 2. Message Viewer 3. Music Player 
+Time is one of the most complicated topics. But the interesting fact is that it is related to each and every one in this universe. History has witnessed many eras of time keeping. Few notable eras include the sundial era, the sandclock era and clock tower era. Now people are living in the Smart Watch era. Being obsessed with technology, mankind has added all sort of comfort within a small device, watch. It is then called the Smart Watch. This is a project on Smart Watch that has three basic functionaliities 1. Time and Stopwatch 2. Message Viewer 3. Music Player 
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Follow steps below to download and run this project in local machine
 
 ## Working
 
-1. Open the index.html to start the application
+1. Open index.html to start the application
 
 ![Home Screen](images/Home.png)
 
@@ -44,7 +44,7 @@ Follow steps below to download and run this project in local machine
 
 ![Stop Watch](images/StopWatch.png)
 
-8.CLickon the start button to start, stop to stop and lap button to count lap.
+8. Clickon the start button to start, stop button to stop and lap button to count lap.
 
 ![Lap](images/Lap.png)
 
